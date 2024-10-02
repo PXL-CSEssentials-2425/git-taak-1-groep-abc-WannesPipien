@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace git_taak_1_groep_abc_WannesPipien
+namespace Kleurenpsychologie
 {
     /// <summary>
     /// Interaction logic for App.xaml

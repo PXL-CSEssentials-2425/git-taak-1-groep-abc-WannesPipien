@@ -1,7 +1,7 @@
-﻿<Application x:Class="git_taak_1_groep_abc_WannesPipien.App"
+﻿<Application x:Class="Kleurenpsychologie.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:git_taak_1_groep_abc_WannesPipien"
+             xmlns:local="clr-namespace:Kleurenpsychologie"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

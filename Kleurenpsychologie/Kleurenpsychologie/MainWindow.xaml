@@ -1,14 +1,14 @@
-﻿<Window x:Class="git_taak_1_groep_abc_WannesPipien.MainWindow"
+﻿<Window x:Class="Kleurenpsychologie.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:git_taak_1_groep_abc_WannesPipien"
+        xmlns:local="clr-namespace:Kleurenpsychologie"
         mc:Ignorable="d"
-        Title="Kleurenpsychologie" Height="450" Width="800">
-    <Grid Background="#FFC3C3C3">
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="Main" Background="LightGray">
         <TextBlock HorizontalAlignment="Left" Margin="43,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="69" Width="175" Text="Kleurenpsychologie" FontSize="20"/>
-        <Image Margin="640,10,10,274" Source="/PXL.png" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="681,10,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png" MouseEnter="Image_MouseEnter_1" MouseLeave="Image_MouseLeave_1"/>
 
     </Grid>
 </Window>
