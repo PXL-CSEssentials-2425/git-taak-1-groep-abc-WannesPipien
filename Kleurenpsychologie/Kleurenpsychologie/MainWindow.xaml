@@ -7,8 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="Main" Background="LightGray">
-        <TextBlock HorizontalAlignment="Left" Margin="43,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="69" Width="175" Text="Kleurenpsychologie" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="93,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="69" Width="175" Text="Kleurenpsychologie" FontSize="20"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="681,10,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png" MouseEnter="Image_MouseEnter_1" MouseLeave="Image_MouseLeave_1"/>
+        <Image x:Name="groen" HorizontalAlignment="Left" Height="100" Margin="93,112,0,0" VerticalAlignment="Top" Width="151" Source="/Groen.png" MouseLeftButtonUp="groen_MouseLeftButtonUp"/>
+        <Image x:Name="Geel" HorizontalAlignment="Left" Height="100" Margin="249,112,0,0" VerticalAlignment="Top" Width="151" Source="/Geel.png" MouseLeftButtonUp="Geel_MouseLeftButtonUp"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="158,351,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="rood" HorizontalAlignment="Left" Height="100" Margin="93,217,0,0" VerticalAlignment="Top" Width="151                " Source="/Rood.png" MouseLeftButtonUp="rood_MouseLeftButtonUp"/>
+        <Image x:Name="blauw" HorizontalAlignment="Left" Height="100" Margin="249,217,0,0" VerticalAlignment="Top" Width="151
+               " Source="/Blauw.png" MouseLeftButtonUp="blauw_MouseLeftButtonUp"/>
+        <Label Content="Kleurcode" HorizontalAlignment="Left" Margin="26,338,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="hexTextBox" HorizontalAlignment="Left" Margin="98,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="LightGray" IsEnabled="False" BorderBrush="Black"/>
 
     </Grid>
 </Window>

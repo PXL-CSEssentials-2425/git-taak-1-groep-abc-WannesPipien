@@ -34,11 +34,34 @@ namespace Kleurenpsychologie
         private void Image_MouseEnter_1(object sender, MouseEventArgs e)
         {
             Main.Background = new SolidColorBrush(Colors.Black);
+            hexTextBox.Background = new SolidColorBrush(Colors.Black);
         }
 
         private void Image_MouseLeave_1(object sender, MouseEventArgs e)
         {
             Main.Background = new SolidColorBrush(Colors.LightGray);
+            hexTextBox.Background = new SolidColorBrush(Colors.LightGray);
         }
+
+        private void rood_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            hexTextBox.Text = "#FF0000";
+        }
+
+        private void Geel_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            hexTextBox.Text = "#FFFF00";
+        }
+
+        private void blauw_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            hexTextBox.Text = "#0000FF";
+        }
+
+        private void groen_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            hexTextBox.Text = "#008000";
+        }
+
     }
 }
