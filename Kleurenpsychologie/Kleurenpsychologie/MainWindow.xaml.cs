@@ -34,33 +34,39 @@ namespace Kleurenpsychologie
         private void Image_MouseEnter_1(object sender, MouseEventArgs e)
         {
             Main.Background = new SolidColorBrush(Colors.Black);
-            hexTextBox.Background = new SolidColorBrush(Colors.Black);
+            kleurLabel.Foreground = new SolidColorBrush(Colors.LightGray);
+            infoLabel.Foreground = new SolidColorBrush(Colors.LightGray);
         }
 
         private void Image_MouseLeave_1(object sender, MouseEventArgs e)
         {
             Main.Background = new SolidColorBrush(Colors.LightGray);
-            hexTextBox.Background = new SolidColorBrush(Colors.LightGray);
+            kleurLabel.Foreground = new SolidColorBrush(Colors.Black);
+            infoLabel.Foreground = new SolidColorBrush(Colors.Black);
         }
 
         private void rood_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             hexTextBox.Text = "#FF0000";
+            infoTextBox.Text = "Rood is de kleur van warmte";
         }
 
         private void Geel_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             hexTextBox.Text = "#FFFF00";
+            infoTextBox.Text = "Geel is de kleur van levenslust";
         }
 
         private void blauw_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             hexTextBox.Text = "#0000FF";
+            infoTextBox.Text = "Blauw is de kleur van intelligentie";
         }
 
         private void groen_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             hexTextBox.Text = "#008000";
+            infoTextBox.Text = "Groen is de kleur van genezing";
         }
 
     }
